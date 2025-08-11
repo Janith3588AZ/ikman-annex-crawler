@@ -41,8 +41,8 @@ function initialSetup() {
   configSheet.getRange('A1:B1').setFontWeight('bold');
 
   configSheet.appendRow(['Source_URL', 'https://ikman.lk/en/ads/colombo/room-annex-rentals?money.price.maximum=50000']);
-  configSheet.appendRow(['to_email', 'showt997@gmail.com']);
-  configSheet.appendRow(['to_email', '333subashini@gmail.com']);
+  configSheet.appendRow(['to_email', 'your_email@example.com']);
+  configSheet.appendRow(['to_email', 'another_email@example.com']);
   
   SpreadsheetApp.getUi().alert('Initial setup complete! "Rejected" and "Failures" sheets have been added. Please ensure your GOOGLE_API_KEY is set in Script Properties.');
 }
