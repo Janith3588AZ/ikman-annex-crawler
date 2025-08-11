@@ -50,6 +50,7 @@ This Google Apps Script project automatically crawls room and annex rental ads f
     -   Under **Script Properties**, click **Add script property**.
     -   **Property:** `GOOGLE_API_KEY`
     -   **Value:** `[Your Google Gemini API Key]`
+    -   Open the Google Sheet. In the Config tab, replace the placeholder values for Source_URL and to_email with your actual ikman.lk search URL and the email addresses where you want to receive notifications.
 
 6.  **Initial Setup & Triggers:**
     -   Open the Google Sheet associated with the script.
